@@ -1,0 +1,41 @@
+* {
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+}
+
+#body {
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.hstack {
+    display: inline;
+}
+
+.hstack-inner {
+    height: 100%;
+    width: auto;
+}
+
+.hstack *, .vstack *, .zstack * {
+    float: inherit;
+}
+
+.vstack {
+    display: inline-block;
+}
+
+.vstack-inner {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.zstack {
+
+}
